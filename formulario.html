@@ -7,46 +7,57 @@
     <title>formulario</title>
 </head>
 <body>
-    <form action="semantico.html" method="post"></form>
-    <label for="">digite su nombre:</label>
-    <input type="text" placeholder="digite su nombre" required>
-    <br>
-    <label for="">Contraseña:</label>
-    <input type="password" placeholder="Digite su contraseña">
-    <br>
-    <label for="">Seleccione el documento:</label>
-    <!--accept me permite limitar el tipo de documento al que puedo acceder-->
-    <input type="file" accept=".pdf">
-    <br>
-    <label for="">email:</label>
-    <input type="email">
-    <br>
-    <label for="ciclo">ciclo:</label>
-    <select name="" id="ciclo"> 
-        <option value="0">seleccione ciclo</option>
-        <option value="c1">ciclo 1</option>
-        <option value="c2">ciclo 2</option>
-        <option value="c3">ciclo 3</option>
-    </select>
-    <br>
-    <label for="">lenguje preferido:</label>
-    <br>
-    <input type="checkbox">java
-    <input type="checkbox">phyton
-    <input type="checkbox">c#
-    <br>
-    <label for="">genero</label>
-    <br>
-    <input type="radio" name="genero">masculino
-    <input type="radio" name="genero">femenino
-    <br>
-    <input type="date" name="" id="">
-    <br>
-    <input type="time" name="" id="">
-    <br>
-    <input type="datetime" name="" id="">
-    <br>
-    <input type="submit" name="" id="" value="enviar">
+    <form action="semantico.html" method="post">
+        <!--*fieldset me coloca un cuadrito responsive al rededor del formulario
+            *legend me permite colocar un titulo que este sobre la linea del cuadrito -->
+        <fieldset>
+            <legend>formulario de registro</legend>
+            <label for="">digite su nombre:</label>
+            <input type="text" placeholder="digite su nombre" required>
+            <br>
+            <label for="">Contraseña:</label>
+            <input type="password" placeholder="Digite su contraseña">
+            <br>
+            <label for="">Seleccione el documento:</label>
+            <!--accept me permite limitar el tipo de documento al que puedo acceder-->
+            <input type="file" accept=".pdf">
+            <br>
+            <label for="">email:</label>
+            <input type="email">
+            <br>
+            <label for="ciclo">ciclo:</label>
+            <select name="" id="ciclo"> 
+                <option value="0">seleccione ciclo</option>
+                <option value="c1">ciclo 1</option>
+                <option value="c2">ciclo 2</option>
+                <option value="c3">ciclo 3</option>
+            </select>
+            <br>
+            <label for="">lenguje preferido:</label>
+            <br>
+            <input type="checkbox">java
+            <input type="checkbox">phyton
+            <input type="checkbox">c#
+            <br>
+            <label for="">genero</label>
+            <br>
+            <input type="radio" name="genero">masculino
+            <input type="radio" name="genero">femenino
+            <br>
+            <input type="date" name="" id="">
+            <br>
+            <input type="time" name="" id="">
+            <br>
+            <input type="datetime" name="" id="">
+            <br>
+            <input type="checkbox">
+            <p>Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre 
+                protección de datos
+            </p>
+            <br>
+            <input type="submit" name="" id="" value="enviar">
+        </fieldset>
+    </form>
     
 </body>
 </html>
